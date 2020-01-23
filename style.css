@@ -1,0 +1,915 @@
+ *{
+    margin:0;
+    padding:0;
+ }
+ /*-------########################'''Global'''#########################-------*/
+ @font-face {
+    font-family: 'robotoRegular';
+    src: url('../fonts/Roboto-Regular.woff2') format('woff2'),
+         url('../fonts/Roboto-Regular-webfont.woff') format('woff');
+     
+
+}
+@font-face {
+    font-family: 'robotoBold';
+    src: url('../fonts/Roboto-bold.woff2') format('woff2'),
+         url('../fonts/Roboto-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+ 
+h1,h2,h3,h4{
+  font-family: robotoBold!important;
+}
+.white{
+  color:white;
+}
+.over_hide{
+  overflow: hidden!important;
+}
+ .bg_gray{
+  background:#F5F5F5 !important;
+ }
+ .gray{
+  color:#aba0a0 !important;
+ }
+ .bg_black{
+  background: #707070!important;
+ }
+ .border{
+  border-color:#F5F5F5 !important;
+ }
+.blue{
+ color:#1E66A0;
+}
+.bg_blue{
+  background:#1E66A0;
+}
+.top-pading
+{
+  padding-top: 21px;
+}
+.top_pad_2prcnt
+{
+  padding-top: 2%;
+}
+.top_pad_1prcnt
+{
+  padding-top: 1%;
+}
+p{
+
+    color: black;
+}
+.justfy{
+text-align: justify;
+}
+h1,h2,h3,h4{
+  font-family: roboto;
+}
+.font_15px{
+  font-size: 15px;
+}
+.font_31px{
+  font-size: 31px;
+}
+/*---button---*/
+.btn-primary {
+    color: #fff;
+    background-color: #1E66A0;
+    border-color: #1E66A0;
+    text-transform: uppercase;
+    font-family: robotoBold;
+}
+.Rbold{
+  font-family: robotoBold!important;
+}
+.btn{
+      padding: 12px 12px;
+      font-size: 15px;
+}
+.border_left {
+     
+    height: auto;
+    /* background: red; */
+    position: relative;
+    border-left: 1px solid #1E66A0;
+}
+.border_left:before {
+    content: "";
+    position: absolute;
+    top: -18px;
+    left: -10px;
+    width: 0;
+    height: 0;
+    /* border-left: 50px solid transparent; */
+    /* border-right: 50px solid transparent; */
+    /* border-bottom: 25px solid red; */
+    border: 9px solid #1E66A0;
+    border-radius: 50%;
+}
+.border_left:after {
+    content: "";
+    position: absolute;
+    bottom: -17px;
+    left: -9px;
+    width: 0;
+    height: 0;
+    border: 9px solid #1E66A0;
+    border-radius: 50%;
+}
+.pad_left{
+  padding-left: 40px;
+}
+.margn_top_25{
+  margin-top: 25px;
+}
+a{
+  text-decoration: none!important;
+}
+.pad_zero{
+  padding: 0px!important;
+}
+
+ /*-------########################'''/Global'''#########################-------*/
+                              /*-------END-------*/
+ 
+/*-------***************************11111111111111111111111**********************---------*/
+/*-------***************************HOME START***********************************---------*/
+
+ /*-------########################'''RESUME_NAV_HOME'''#########################-------*/
+ #resume_home_nav{
+  float: left;
+  width:100%;
+ }
+ #resume_home_nav .navbar-inverse 
+ .navbar-nav>.active>a, 
+ .navbar-inverse 
+ .navbar-nav>.active>a:focus, 
+ .navbar-inverse 
+ .navbar-nav>.active>a:hover
+ {
+    color: #000000 !important;
+    background-color:transparent!important;
+    border-bottom: 2px solid #1E66A0!important;
+    font-weight: bold;
+ }
+ #resume_home_nav .navbar-inverse .navbar-nav>li>a{
+  color:black!important;
+  font-weight: bold;
+ }
+ #resume_home_nav .navbar-inverse .navbar-nav>li>a:hover{
+  color:black!important;
+ }
+ #resume_home_nav .nav>li>a{
+  padding: 28px 21px;
+ }
+  #resume_home_nav .form-control
+  {
+    border-radius:50px!important;
+  }
+  .logo_size{
+   width: 100%;
+}
+.navbar-brand{
+float: left;
+    height: auto!important;
+    padding: 0px 13px!important;
+    /* font-size: 18px; */
+    line-height: 20px;
+    margin-top: -16px!important;
+}
+
+
+  /*-------########################'''/RESUME_NAV_HOME'''#########################-------*/
+ 
+
+/*-------########################'''RESUME_HOME_VIDEO'''#########################-------*/
+  #home_video{
+   float: left;
+   width: 100%;
+   background: url('../images/image-2.png');
+   height: 452px;
+    background-position: center;
+    background-repeat: none;
+    background-repeat: no-repeat;
+    margin-top: -20px;
+  }
+   #home_video .img_center{
+
+      margin: 0 auto;
+      max-width: 56%;
+    display: block;
+   }
+
+    #home_video .laptop-wrapper {
+    position: relative;
+    padding-top: 25px;
+    padding-bottom: 67.5%;
+    height: 0;
+}
+ #home_video .laptop-wrapper iframe {
+    box-sizing: border-box;
+    background: url('../images/laptop-png-8.png') center center no-repeat;
+    background-size: contain;
+    padding: 1.9% 14.5% 13.8%;
+    position: absolute;
+    top: 0;
+    left: 14%;
+    width: 70%;
+    height: 60%;
+}
+    
+/*-------########################'''/RESUME_HOME_VIDEO'''#########################-------*/
+/*-------########################'''HOME_review'''#########################-------*/
+
+#free_review{
+float:left;
+width:100%;
+margin-top: 5%;
+}
+#free_review h2:before {
+    content: '';
+    width: 94px;
+    height: 3px;
+    position: absolute;
+    bottom: -7px;
+    left: 47%;
+    margin-left: -12px;
+    border-bottom: 4px solid #1e66a0;
+}
+#free_review .btn1 {
+    padding: 2px 12px !important;
+    font-size: 15px !important;
+}
+#free_review .spn
+{
+color: black;
+    padding-left: 5px;
+  }
+#free_review .margn_top_18{
+  margin-top:18px;
+}
+#free_review .wid1{
+  max-width: 62%;
+  padding-top: 12px
+}
+#free_review .icn{
+border: 1px solid #1e66a0;
+    padding: 3px;
+    font-size: 24px;
+    border-radius: 50%;
+    margin-right: 2px;
+}
+
+
+@media (min-width: 992px){
+  #free_review .col-md-offset-1 {
+    margin-left: 10.333333% !important;
+}
+}
+/*-------########################'''/HOME_review'''#########################-------*/
+/*-------######################'''PROGRESS'''###############################-------*/
+.border_squar
+{
+  max-width: 182px;
+    max-height: 90px;
+    /* background: red; */
+    -moz-border-radius: 50px;
+    /* -webkit-border-radius: 50px; */
+    /* border-radius: 50px; */
+    margin: 23px auto;
+    border: 1px solid;
+    border-color: white;
+    transition-property: border;
+     
+  transition-duration: 1s;
+  transition-delay: 0.5s;
+}
+.border_squar:hover{
+  border: 5px solid #F5F5F5;
+}
+.count
+{
+  line-height: 100px;
+  color:white;
+  font-size:25px;
+  position: relative;
+    top: -16px;
+}
+.percent
+{
+  line-height: 100px;
+  color:white;
+  font-size:25px;
+  position: relative;
+    top: -16px;
+}
+#progress{
+  float:left;
+  width:100%;
+  background: #1e66a0;
+}
+#progress .para{
+ position: relative;
+    top: -35px;
+    bottom: auto;
+    right: auto;
+    transform: translate(1%,-60%);
+    color: white;
+    font-family: roboto;
+}
+/*-------######################'''/PROGRESS'''###############################-------*/
+
+/*-------######################'''RESUME LAYOUT'''###############################-------*/
+#resume_layout{
+  float: left;
+  width: 100%;
+  background:#F5F5F5;
+}
+#resume_layout .resume_layouts_head:before {
+    content: '';
+    width: 94px;
+    height: 3px;
+    position: absolute;
+    bottom: -7px;
+    left: 47%;
+    margin-left: -12px;
+    border-bottom: 4px solid #1e66a0;
+}
+#resume_layout .img_fix{
+  object-fit: contain;
+    width: 250px;
+    height: 326px;
+    display: block;
+ }
+ #resume_layout .img_box{
+    max-width: 250px;
+    max-height: 326px;
+    margin: 0 auto;
+    overflow: hidden;
+ }
+ .shadow:hover {
+  border-bottom: 1px solid #1e66a0;
+    box-shadow: 1px 1px 1px 1px #1e66a0
+ }
+  
+/*-------######################'''/RESUME LAYOUT'''###############################-------*/
+
+/*-------######################'''attentn_recruit'''###############################-------*/
+#attentn_recruit{
+       float: left;
+       width:100%;
+ }
+ #attentn_recruit h2:before {
+    content: '';
+    width: 94px;
+    height: 3px;
+    position: absolute;
+    bottom: -7px;
+    left: 48%;
+    margin-left: -12px;
+    border-bottom: 4px solid #1e66a0;
+}
+ #attentn_recruit .margn_top_18{
+  margin-top: 37px;
+  margin-bottom: 15px;
+}
+ #attentn_recruit .icn{
+border: 1px solid #1e66a0;
+    padding: 3px;
+    font-size: 24px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+#attentn_recruit .width2{
+max-width: 96%;
+}
+
+
+/*-------######################'''/attentn_recruit'''###############################-------*/
+
+/*-------######################'''why chose us'''###############################-------*/
+#why_chose{
+float: left;
+width: 100%;
+background: whitesmoke;
+margin-top: 25px;
+}
+#why_chose h2:before {
+    content: '';
+    width: 94px;
+    height: 3px;
+    position: absolute;
+    bottom: -7px;
+    left: 48%;
+    margin-left: -12px;
+    border-bottom: 4px solid #1e66a0;
+}
+#why_chose h2:before {
+    content: '';
+    width: 94px;
+    height: 3px;
+    position: absolute;
+    bottom: -7px;
+    left: 47%;
+    margin-left: -12px;
+    border-bottom: 4px solid #1e66a0;
+}
+#why_chose .pad_zero{
+  padding: 0px!important
+}
+.anchor{
+        /* float: left; */
+    max-width: 75%;
+    /* background: #1e66a0; */
+    color: white;
+    /* padding: 10% 14%; */
+    /* width: 33%; */
+    margin: 0 auto;
+}
+#why_chose .h .he5,.img_w{
+  padding-bottom: 14%;
+  transition-property: padding-bottom;
+  transition-duration: 1s;
+  transition-delay: 0.5s;
+  
+}
+#why_chose .h:hover .he5,.img_w {
+    padding-bottom: 6%;
+}
+.margtop_botm
+{
+      margin-top: 41px;
+    margin-bottom: 41px;
+}
+#why_chose .h .he5{
+  padding-top: 6%;  
+}
+
+
+.height_bg{
+  height: 360px!important;
+  padding-top: 19px;
+}
+ 
+/*-------######################'''/why chose us'''###############################-------*/
+/*-------######################'''testimonial'''###############################-------*/
+#testimonial
+{
+  float: left;
+  width:100%;
+  background: url('../images/bg6.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  height: auto;
+  padding-bottom: 115px;
+}
+#testimonial h2:before {
+    content: '';
+    width: 94px;
+    height: 3px;
+    position: absolute;
+    bottom: -7px;
+    left: 47%;
+    margin-left: -12px;
+    border-bottom: 4px solid #1e66a0;
+}
+#testimonial .margn_top{
+  margin-top: 70px;
+}
+.slick-next {
+background-color: #F5F5F5 !important;
+color: white;
+border-color: #cacaca;
+font-size: 10px;
+padding-top: 0px !important;
+height: 40px  !important;
+width: 40px  !important;
+top: 100% !important;
+box-shadow: 1px 1px 4px 2px #d8d7d7;
+transition-property: background-color;
+  transition-duration: .2s;
+  transition-delay: 0.2s;
+}
+.slick-prev {
+background-color: #F5F5F5 !important;
+color: white;
+border-color: #cacaca;
+font-size: 10px;
+padding-top: 0px !important;
+height: 40px  !important;
+width: 40px  !important;
+top: 100% !important;
+box-shadow: 1px 1px 4px 2px #d8d7d7;
+transition-property: background-color;
+  transition-duration: .2s;
+  transition-delay: 0.2s;
+}
+
+.slick-prev:hover {
+background-color: #1e66a0 !important;
+}
+.slick-next:hover {
+background-color: #1e66a0 !important;
+}
+/*-------######################'''/testimonial'''###############################-------*/
+/*-------######################'''footer'''###############################-------*/
+#main_footer{
+  float:left;
+  width: 100%;
+  background: #1e66a0;
+}
+#main_footer h2:before {
+    content: '';
+    width: 94px;
+    height: 3px;
+    position: absolute;
+    bottom: -7px;
+    left: 47%;
+    margin-left: -12px;
+    border-bottom: 4px solid #1CAAE2;
+}
+#main_footer .btn {
+    padding: 5px 23px;
+    font-size: 15px;
+    border-radius: 0px!important;
+}
+#main_footer .btn-success {
+    color: #fff;
+    background-color: #1caae2;
+    border-color: #1caae2;
+}
+#sub_footer{
+  float:left;
+  width: 100%;
+  background:#043E6D;
+  padding: 10px 0px;
+}
+#sub_footer a:hover{
+ color:white;
+}
+/*-------######################'''/footer'''###############################-------*/
+ 
+/*-------***************************11111111111111111111111**********************---------*/
+/*-------********************************\HOME End***********************************---------*/
+
+/*-------***************************222222222222222222222222222222**********************---------*/
+/*-------********************************\FAQ STARTED***********************************---------*/
+/*nav css already added in home swction*/
+
+#FAQ_head{
+ float: left;
+   width: 100%;
+   background: url('../images/image-2.png');
+    background-position: center;
+    background-repeat: none;
+    background-repeat: no-repeat;
+    margin-top: -20px;
+    height: 88px;
+}
+/*-------######################'''FAQ_Q/A'''###############################-------*/
+#FAQ_QA{
+      float: left;
+    width: 100%;
+    margin-top: 29px;
+}
+#FAQ_QA .bg_border{
+   background: #E3E3E3;
+    border-left: 5px solid #1078CC;
+}
+#FAQ_QA .wrap{
+  float:left;
+  width:100%;
+  margin: 17px 0px;
+}
+
+#FAQ_QA .margn_top_bottm{
+    margin-top: 8px;
+    margin-bottom: 8px;
+    font-size: 20px;
+}
+
+#FAQ_QA .font_size1{
+  font-size: 30px;
+    padding-right: 5px;
+    color: #1E66A0;
+}
+#FAQ_QA .bg_border_flex
+{
+   display: flex;
+    background: #F7F7F7;
+    border-left: 5px solid #817D7D;
+    padding: 16px;
+}
+#FAQ_QA .font_size2{
+ font-size: 30px;
+  padding-right: 5px;
+  color: #817D7D;
+}
+#FAQ_QA .font_size3
+{
+    margin-top: 13px;
+    font-size: 17px;
+}
+
+/*-------######################'''FAQ_Q/A'''###############################-------*/
+/*-------***************************222222222222222222222222222222**********************---------*/
+/*-------********************************\FAQ END***********************************---------*/
+
+/*-------***************************3333333333333333333333333333333**********************---------*/
+/*-------********************************HOW ITS WORK***********************************---------*/
+/*nav css already added in home swction*/
+
+#HIT_head{
+ float: left;
+   width: 100%;
+   background: url('../images/image-2.png');
+    background-position: center;
+    background-repeat: none;
+    background-repeat: no-repeat;
+    margin-top: -20px;
+    height: 88px;
+}
+/*-------######################'''hit-content'''###############################-------*/
+#FAQ_QA{
+      float: left;
+    width: 100%;
+    margin-top: 29px;
+}
+ 
+#HIT_content .wrap{
+  float:left;
+  width:100%;
+  margin: 17px 0px;
+}
+
+#HIT_content .margn_top_bottm{
+   font-size: 19px;
+    line-height: 32px;
+    margin-top: 25px;
+    padding-bottom: 50px;
+}
+
+#HIT_content .font_size1{
+  font-size: 30px;
+     
+}
+/*-------######################'''/hit-content'''###############################-------*/
+/*-------######################'''unlock door'''###############################-------*/
+#unlock_door{
+  float: left;
+  width:100%;
+  margin-top: 20px;
+  background:#F7F7F7;
+}
+#unlock_door h2:before {
+    content: '';
+    width: 94px;
+    height: 3px;
+    position: absolute;
+    bottom: -7px;
+    left: 47%;
+    margin-left: -12px;
+    border-bottom: 4px solid #1CAAE2;
+}
+#unlock_door .font_size1{
+  font-size: 17px;
+     padding: 17px;
+    text-align: justify;
+}
+/*-------######################'''/unlock door'''###############################-------*/
+
+/*-------######################'''format_resume'''###############################-------*/
+
+#format_resume{
+  float: left;
+  width: 100%;
+  margin-top: 25px;
+  padding-bottom: 25px
+}
+#format_resume .margn_top_bottm{
+   font-size: 19px;
+    line-height: 32px;
+    margin-top: 25px;
+    padding-bottom: 50px;
+}
+
+#format_resume .font_size1{
+  font-size: 30px;
+     
+}
+#format_resume .pading{
+  padding-bottom: 20px;
+}
+#format_resume h2:before {
+    content: '';
+    width: 94px;
+    height: 3px;
+    position: absolute;
+    bottom: -7px;
+    left: 48%;
+    margin-left: -12px;
+    border-bottom: 4px solid #1CAAE2;
+}
+#format_resume .pading_left
+{
+  padding-left: 8px;
+}
+.box1{
+      padding: 28px 63px;
+}
+#format_resume .font_size3{
+  font-size: 17px;
+}
+/*-------######################'''/format_resume'''###############################-------*/
+
+/*-------***************************333333333333333333333333333333333333**********************---------*/
+/*-------********************************\HOW ITS WORK END***********************************---------*/
+
+/*-------***************************4444444444444444444444444**********************---------*/
+/*-------********************************about start***********************************---------*/
+#about_head
+{
+  float: left;
+   width: 100%;
+   background: url('../images/image-2.png');
+    background-position: center;
+    background-repeat: none;
+    background-repeat: no-repeat;
+    margin-top: -20px;
+    height: 88px;
+}
+/*-------********************************about_content***********************************---------*/
+#about_content{
+  float:left;
+  width:100%;
+}
+#about_content .font_size1
+{
+  font-size: 20px;
+    font-weight: normal;
+    padding-bottom: 23px;
+}
+/*-------********************************\about_content***********************************---------*/
+/*-------********************************team***********************************---------*/
+#team
+{
+  float:left;
+  width: 100%;
+}
+#team h2:before {
+    content: '';
+    width: 94px;
+    height: 3px;
+    position: absolute;
+    bottom: -7px;
+    left: 48%;
+    margin-left: -12px;
+    border-bottom: 4px solid #1CAAE2;
+}
+
+#team {
+  padding: 100px 0 100px 0;
+  background: #f3f3f3;
+  margin-top: 45px;
+  float:left;
+  width: 100%;
+  background: url('../images/image-2.png');
+  background-position: center;
+    background-repeat: none;
+    background-repeat: no-repeat;
+    height: px;
+}
+#team .single-team-table {
+  display: block;
+  background: #f9f9ff;
+  border:1px solid #dfdfdf;
+  text-align: center;
+  padding: 28px 0 0px 0;
+   margin-bottom: 15px;
+}
+#team .single-team-table p {
+  margin: 4px 0 20px 0;
+}
+
+ .m_t2{
+  margin-top: 42px;
+}
+.team_cont{
+  padding:18px;
+}
+.mt_bt
+{
+  margin-top: -50px;
+}
+/*-------********************************\team***********************************---------*/
+
+/*-------***************************4444444444444444444444444**********************---------*/
+/*-------********************************\about end***********************************---------*/
+
+/*-------***************************55555555555555555555555555555555555**********************---------*/
+/*-------********************************CONTACT US start***********************************---------*/
+
+/*-------********************************contact_head***********************************---------*/
+#contact_head{
+  float: left;
+   width: 100%;
+   background: url('../images/image-2.png');
+    background-position: center;
+    background-repeat: none;
+    background-repeat: no-repeat;
+    margin-top: -20px;
+    height: 88px;
+}
+#contact_head .font_size1
+{
+  font-size: 20px;
+    font-weight: normal;
+    padding-bottom: 23px;
+}
+/*-------********************************\contact_head***********************************---------*/
+
+/*-------********************************contact_form***********************************---------*/
+#contact_form{
+  float: left;
+  width: 100%;
+}
+#contact_form .form-control {
+     
+    background-color: #E3E2E3 !important;
+}
+#contact_form label {
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+    font-weight: normal;
+    font-size: 17px;
+    color: #bdb9b9;
+    letter-spacing: 1px;
+    padding-bottom: 10px;
+}
+#contact_form .marg_bottom
+{
+  margin-bottom: 25px;
+}
+#contact_form h2:before {
+    content: '';
+    width: 94px;
+    height: 3px;
+    position: absolute;
+    bottom: -7px;
+    left: 2%;
+    margin-left: -12px;
+    border-bottom: 4px solid #1E66A0;
+}
+#contact_form .logo_size {
+    width: 57%;
+}
+.font{
+  font-size: 19px;
+}
+#contact_form .font p{
+  padding-bottom: 12px;
+}
+/*-------********************************\contact_form***********************************---------*/
+
+/*-------********************************Page Not Found***********************************---------*/
+#error_404{
+   float: left;
+   width: 100%;
+   background: url('../images/image-2.png');
+   height: 452px;
+    background-position: center;
+    background-repeat: none;
+    background-repeat: no-repeat;
+    margin-top: -20px;
+}
+#error_404 img{
+      width: 60%;
+    margin-top: 180px;
+}
+#msg
+{
+  margin-top: 199px;
+  float:left;
+  width: 100%;
+}
+#msg .wrap_para{
+  max-width: 325px;
+    font-size: 17px;
+    margin: 22px auto;
+}
+
+#msg .marg_bottom{
+margin-bottom: 30px;
+}
+    
+/*-------********************************\Page Not Found***********************************---------*/
+
+/*-------***************************4444444444444444444444444**********************---------*/
+/*-------********************************\CONTACT US End***********************************---------*/
+
+
+
